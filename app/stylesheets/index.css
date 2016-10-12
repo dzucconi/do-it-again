@@ -38,6 +38,7 @@ body,
 }
 
 .clock {
+  position: relative;
   margin: 20px auto;
   text-align: center;
   font-size: 24px;
@@ -50,13 +51,19 @@ body,
   }
 
 @media (max-width: 640px) {
+  .clocks {
+    padding: 10px;
+  }
   .clock {
     font-size: 18px;
   }
 }
 
 @media (max-width: 480px) {
+  .clocks {
+    padding: 5px;
+  }
   .clock {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
